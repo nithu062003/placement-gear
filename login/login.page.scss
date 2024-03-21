@@ -1,0 +1,74 @@
+.login-body {
+    height: 100%;
+    width: 100%;
+    background-size: cover; /* or contain, depending on your requirement */
+    background-position: center; /* Center the background image */
+    background-image: url('../../../assets/images/pexels-ann-h-1762851.jpg');
+}
+.container {
+    width: 90%;
+    height: 50%;
+    margin-top: 50%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.login-title {
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.email {
+    height: 10%;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 10%;
+    input {
+        height: 100%;
+        width: 75%;
+        border-radius: 2vh;
+        border: none; 
+        /* Center the placeholder text horizontally */
+        text-align: center;
+        opacity: 0.7;
+    }
+}
+
+.password {
+    height: 10%;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 10%;
+    input {
+        height: 100%;
+        width: 75%;
+        border-radius: 2vh;
+        border: none; 
+        /* Center the placeholder text horizontally */
+        text-align: center;
+        opacity: 0.7;
+    }
+}
+
+.login-button {
+    height: 10%;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 10%;
+    button {
+        height: 100%;
+        background-color: white;
+        width: 75%;
+        border-radius: 2vh;
+        border: none; 
+        /* Center the placeholder text horizontally */
+        text-align: center;
+        font-weight: bolder;
+        font-size: 16px;
+        opacity: 0.9;
+    }
+}

@@ -1,0 +1,61 @@
+/* app.component.scss */
+
+  .menu-content {
+    background-color: #f0f0f0;
+    height: 100%;
+    display: flex;
+  }
+  .student-image {
+    width: 80%;
+    height: 50%;
+    margin: 10%;
+  }
+  ion-menu::part(backdrop) {
+    background-color: rgba(255, 0, 255, 0.5);
+  }
+  /* Remove shadow from the toolbar */
+ion-header {
+  --box-shadow: none; /* Remove the box shadow */
+}
+ion-menu-button {
+  --color: #ff0000; /* Set your desired color */
+}
+ion-toolbar {
+  --box-shadow: none; /* Remove the box shadow */
+}
+.header {
+  box-shadow:none
+}
+ion-title {
+  --color: #1a1a1a
+}
+
+.title {
+  text-align: left;
+  margin-top: 1%;
+  margin-right: 10%;
+}
+
+.context {
+  color: #1f6251;
+  height: 200px;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  font-family: Sans-serif;
+  line-height: 3%
+}
+.line1 {
+  margin-bottom: 10%; /* You can adjust this value */
+}
+.line2 {
+  margin-top: 10%; /* You can adjust this value */
+}
+.prepare {
+  color: black;
+  font-size: 25px;
+  margin-top: 15%;
+}
+.start-button {
+  width: 40%;
+}

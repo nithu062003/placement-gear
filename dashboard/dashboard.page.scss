@@ -1,0 +1,75 @@
+.header {
+    box-shadow:none;
+    // background-color: aquamarine;/
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  .menu-content {
+    background-color: #f0f0f0;
+    height: 100%;
+    display: flex;
+  }
+
+  ion-header {
+    --box-shadow: none; /* Remove the box shadow */
+  }
+  ion-menu-button {
+    --color: #ff0000; /* Set your desired color */
+  }
+  ion-toolbar {
+    --box-shadow: none; /* Remove the box shadow */
+  }
+
+  .first-row {
+    display: flex;
+    margin-top: 0%;
+  }
+  .assessment {
+    background-color: aquamarine;
+    width: 50%;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 3%;
+    background-image: url('../../../assets/images/assessment.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    border-radius: 3px;
+    margin-bottom: 3%;
+  }
+  .progress {
+    background-color: cadetblue;
+    width: 50%;
+    height: 300px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    background-image: url('../../../assets/images/progress.png');
+    background-size: cover; /* Cover the entire container */
+    border-radius: 3px;
+    background-position: center; /* Center the background image */
+    margin-bottom: 3%;
+  }
+  .study-plan {
+    background-color: coral;
+    margin: 3%;
+    height: 150px;
+    background-image: url('../../../assets/images/study-plan.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+  }
+  .option {
+    color: #f4be0d;
+    font-size: large;
+  }
+  .study-plan-title {
+    padding-top: 10%;
+    padding-left: 40%;
+  }
+  .assessment-title {
+    padding-top: 120%;
+    padding-left: 20%;
+  }
+  .progress-title {
+    padding-top: 120%;
+    padding-left: 30%;
+  }
