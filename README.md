@@ -1,1 +1,1 @@
-# 
+Why i do this project,the main objective of the project is improving the student aptitude and skill level basically why I choose this is simple to understand every concept of aptitude and increase skill level. # 
